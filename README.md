@@ -16,7 +16,7 @@ To run and interact with this program, you can use Remix, an online Solidity Int
 
 3. Save the file with a .sol extension (e.g., KaizenToken.sol).
 
-4. Copy and paste the provided Solidity code into the newly created file.
+4. Copy and paste the provided Solidity code in the link https://github.com/Prince0x01/My_Metacrafters_Lesson/blob/master/KaizenToken.sol and paste into the newly created file.
 
 5. Compile the code by clicking on the "Solidity Compiler" tab in the left-hand sidebar. Ensure that the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile KaizenToken.sol" button.
 
