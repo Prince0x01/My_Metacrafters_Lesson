@@ -1,26 +1,42 @@
-Hello World
-This Solidity program is a simple "Token" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+# MyToken Solidity Smart Contract
 
-Description
-This is a program written in solidity, a language for developing smart contract on the Ethereum blockchain. The  "MyToken" Solidity smart contract is a basic Ethereum token (named "Kaizen" with symbol "KZN") contract,  that allows the creation of new tokens (minting) and destruction of existing tokens (burning), while also tracking balances for Ethereum addresses, with an initial total supply of 0.
+## Overview
 
-Getting Started
-Executing program
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+This Solidity program is a simple "Token" program that shows the practical steps to those new to Solidity and interested in understanding its basic syntax and functionality. It demonstrates the creation of a basic Ethereum token named "Kaizen" with the symbol "KZN." The contract allows for the minting (creation) and burning (destruction) of tokens, while also keeping track of token balances for Ethereum addresses. The initial total supply of tokens is set to 0.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., KaizenToken.sol). Copy and paste the following code into the file:
+## Getting Started
 
-pragma solidity ^0.8.18;
+To run and interact with this program, you can use Remix, an online Solidity Integrated Development Environment (IDE). Here are the steps to get started:
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile KaizenToken.sol" button.
+### Execution Instructions
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "KaizenToken" contract from the dropdown menu, and then click on the "Deploy" button.
+1. Go to the Remix website at [https://remix.ethereum.org/](https://remix.ethereum.org/).
 
-Once the contract is deployed, you can interact with it by calling the 'mint' and 'burn' functions as well as reading the public variables (i.e. name, symbol, totalSupply and balances of the token). Click on the "KaizenToken" contract in the left-hand sidebar, and then click on the down carret icon on the "mint" function button to input the required variables. Finally click on the "transact" button to execute the function minting the specified amount of Kaizen tokens, repeat this process fo the 'burn' function. To read thee value of Kaizen token minted you can paste the address to which the token was minted to, in the text field of the address button and click on the balance button to retrieve the balance, use the same approach for the other variables.
+2. Create a new file by clicking on the "+" icon in the left-hand sidebar.
 
-Authors
-Princewill
-@Prince0x01
+3. Save the file with a .sol extension (e.g., KaizenToken.sol).
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+4. Copy and paste the provided Solidity code into the newly created file.
+
+5. Compile the code by clicking on the "Solidity Compiler" tab in the left-hand sidebar. Ensure that the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile KaizenToken.sol" button.
+
+6. Deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "KaizenToken" contract from the dropdown menu and click on the "Deploy" button.
+
+7. Interact with the contract by calling the 'mint' and 'burn' functions and reading the public variables (i.e., name, symbol, totalSupply, and balances of the token).
+
+   - To mint tokens: Click on the "KaizenToken" contract in the left-hand sidebar, and then click on the down caret icon on the "mint" function button to input the required variables. Finally, click on the "transact" button to execute the minting function with the specified amount of Kaizen tokens.
+
+   - To burn tokens: Repeat the process above for the 'burn' function.
+
+   - To read the balance of a specific Ethereum address: Paste the address into the text field of the address button and click on the balance button to retrieve the balance.
+
+## Author
+
+- Princewill
+  - GitHub: [@Prince0x01](https://github.com/Prince0x01)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
